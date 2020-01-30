@@ -1,0 +1,96 @@
+body {
+    background-color: whitesmoke;
+
+}
+
+.navbar-brand{
+    padding: 10px;
+    background:rgb(46, 184, 184);
+    font-size: 1.6em;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+
+nav {
+    border-top: solid black;
+    border-bottom: lightgrey solid;
+    padding-left: 0px 0px 0px 30px;
+    font-size: 1.2em;
+    position: fixed;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 20px;;
+    z-index:9999;
+}
+
+.container {
+    background-color: white;
+    width: 900px;
+    float: left;
+    font-size: 1.2em; 
+}
+
+#mypic {
+float: left;
+margin-right: 15px;
+width: 100px;
+height: 130px;
+
+
+}
+#aboutMeBody{
+    padding-top: 100px;
+}
+#aboutMeText {
+    border-bottom: 2px solid lightgrey;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(46, 184, 184);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+footer {
+    border-top: solid 10px rgb(0, 179, 134);
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+/* styles for portfolio page */
+#portfolioBody {
+    padding-top: 100px;
+}
+
+
+#portfolioText {
+    border-bottom: 2px solid lightgrey;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(46, 184, 184);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+/* styles for contact page */
+
+#contactsBody {
+    padding-top: 100px;
+}
+
+#contactsText {
+    border-bottom: 2px solid lightgrey;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(46, 184, 184);
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+}
